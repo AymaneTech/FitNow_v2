@@ -1,6 +1,6 @@
-import { AuthInput } from "../AuthInput"
+import { AuthInput } from "../partials/AuthInput"
+import { AuthButton } from "../partials/AuthButton";
 import { Stack } from "@chakra-ui/react"
-import { AuthButton } from "../AuthButton";
 import { useFormik } from 'formik';
 import { LockKeyhole, Mail, User } from "lucide-react";
 import { validationSchema } from "../../Validations/User";
